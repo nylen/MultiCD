@@ -1,2 +1,2 @@
 #!/bin/sh
-./plugins/clonezilla.sh $1 486
+"$(dirname "$0")/clonezilla.sh" $1 486
