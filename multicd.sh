@@ -2,7 +2,7 @@
 set -e
 
 #MCDDIR: directory where functions.sh, plugins.md5 and plugins folder are expected to be. Not used in a combined .sh file.
-export MCDDIR="."
+export MCDDIR="$(dirname "$0")"
 . "${MCDDIR}"/functions.sh
 
 MCDVERSION="7.0"
